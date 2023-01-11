@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&family=Rowdies:wght@300&display=swap');
+
+*{
+  font-family: 'Rowdies', cursive;
+}
+body{
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+}
+header{
+    color:white;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    height: 90px;
+    padding: 0 40px;
+}
+
+header.logo{
+    font-weight: 700;
+}   
+
+header .menu ul{
+    display:flex;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+header  .menu ul li{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+header .menu li a{
+    fonr-size: .8rem;
+    color: white;
+    text-decoration: none;
+    padding-right: 20px;
+}
+.menu-button{
+    background: rgba(255,255,255,0.4);
+    padding: 10px 15px;
+    border-radius: 20px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+#homepage{
+    height: calc(100vh - 90px);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#homepage .info-section{
+    width: 40%;
+    margin-left: 100px;
+}
+
+#homepage .info-section h1{
+    font-size: 3rem;
+    font-weight: 900;
+    color: white;
+    margin-bottom: 2rem;
+}
+#homepage .info-section h4{
+    font-size: 1rem;
+    font-weight: 300;
+    color: white;
+    margin-bottom: 2rem;
+    letter-spacing: 3px;
+}
+
+#homepage .info-section .call-action{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.call-action .action-btn, .call-action .action-ghost-btn{
+   
+    padding: 10px 10px;
+    border-radius: 30px;
+    width: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+}
+.action-btn{
+    background:rgba(255,255,255,0.4);
+    margin-right: 50px;
+}
+.action-ghost-btn{
+    background: transparent;
+    border: 2px solid white;
+    color: #051937;
+}
+#homepage .Photos{
+    width: 80%;
+    position: relative;
+    height: 600px;
+   
+}
+#homepage .photos .boy{
+    position: absolute;
+    width: 400px;
+    height: 600px;
+    transform: translate3d(0,-200px,0);
+    
+}
+#homepage .Photos .girl{
+    position: absolute;
+    width: 400px;
+    height: 600px; 
+    transform: translate3d(300px,1 00px,0);
+}
+
